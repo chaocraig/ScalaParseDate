@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
-	<info organisation="My organization"
-		module="scalaparsedate_2.10"
-		revision="1.0"
+	<info organisation="default"
+		module="scala_2.10"
+		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20140916163135"
+		publication="20140917163714"
 	>
 		<description>
-		ScalaParseDate
+		scala
 		</description>
 	</info>
 	<configurations>
@@ -26,17 +26,13 @@
 		<conf name="scala-tool" visibility="private" description=""/>
 	</configurations>
 	<publications>
-		<artifact name="scalaparsedate_2.10" type="pom" ext="pom" conf="pom"/>
-		<artifact name="scalaparsedate_2.10" type="jar" ext="jar" conf="compile"/>
-		<artifact name="scalaparsedate_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-		<artifact name="scalaparsedate_2.10" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		<artifact name="scala_2.10" type="pom" ext="pom" conf="pom"/>
+		<artifact name="scala_2.10" type="jar" ext="jar" conf="compile"/>
+		<artifact name="scala_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		<artifact name="scala_2.10" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 	</publications>
 	<dependencies>
-		<dependency org="org.scala-lang" name="scala-compiler" rev="2.10.4" conf="scala-tool->default,optional(default)"/>
-		<dependency org="org.scala-lang" name="scala-library" rev="2.10.4" conf="scala-tool->default,optional(default);compile->default(compile)"/>
-		<dependency org="org.apache.spark" name="spark-core_2.10" rev="1.0.2" conf="compile->default(compile)"/>
-		<dependency org="org.scalatest" name="scalatest_2.10" rev="2.1.RC1" conf="test->default(compile)"/>
-		<dependency org="org.scalacheck" name="scalacheck_2.10" rev="1.11.3" conf="test->default(compile)"/>
-		<dependency org="org.apache.hadoop" name="hadoop-client" rev="&lt;version>" conf="compile->default(compile)"/>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.10.3" conf="scala-tool->default,optional(default)"/>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.10.3" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

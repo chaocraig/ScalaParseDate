@@ -1,61 +1,10 @@
-[0m[[0minfo[0m] [0mUpdating {file:/Users/cray/Documents/workspace-scala/ScalaParseDate/project/}scalaparsedate-build...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/home/cray/ScalaParseDate/project/}scalaparsedate-build...[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: default#scalaparsedate-build;0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
 [0m[[0mdebug[0m] [0m	refresh = false[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#scalaparsedate-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving default#global-plugins;0.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: default#global-plugins;0.0 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m	found default#global-plugins;0.0 in inter-project[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#global-plugins;0.0->com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0 [compile->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0[0m
-[0m[[0mdebug[0m] [0m	found com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0->com.typesafe.sbteclipse#sbteclipse-core;2.5.0 [compile->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving com.typesafe.sbteclipse#sbteclipse-core;2.5.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.sbteclipse#sbteclipse-core;2.5.0 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.sbteclipse#sbteclipse-core;2.5.0[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: com.typesafe.sbteclipse#sbteclipse-core;2.5.0[0m
-[0m[[0mdebug[0m] [0m	found com.typesafe.sbteclipse#sbteclipse-core;2.5.0 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving org.scalaz#scalaz-core_2.10;7.0.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalaz#scalaz-core_2.10;7.0.2 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalaz#scalaz-core_2.10;7.0.2[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scalaz#scalaz-core_2.10;7.0.2[0m
-[0m[[0mdebug[0m] [0m	found org.scalaz#scalaz-core_2.10;7.0.2 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.1[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scala-lang#scala-library;2.10.1[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.1 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving org.scalaz#scalaz-effect_2.10;7.0.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalaz#scalaz-effect_2.10;7.0.2 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalaz#scalaz-effect_2.10;7.0.2[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scalaz#scalaz-effect_2.10;7.0.2[0m
-[0m[[0mdebug[0m] [0m	found org.scalaz#scalaz-effect_2.10;7.0.2 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT {compile=[default(compile)]}[0m
@@ -69,7 +18,7 @@
 [0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.mpeltonen/sbt-idea/scala_2.10/sbt_0.13/1.7.0-SNAPSHOT/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0mdon't use cache for com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT: changing=true[0m
-[0m[[0mdebug[0m] [0m		tried /Users/cray/.ivy2/local/com.github.mpeltonen/sbt-idea/scala_2.10/sbt_0.13/1.7.0-SNAPSHOT/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m		tried /home/cray/.ivy2/local/com.github.mpeltonen/sbt-idea/scala_2.10/sbt_0.13/1.7.0-SNAPSHOT/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0mdon't use cache for com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT: changing=true[0m
 [0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/github/mpeltonen/sbt-idea/1.7.0-SNAPSHOT/maven-metadata.xml[0m
@@ -87,12 +36,12 @@
 [0m[[0mdebug[0m] [0m	Sonatype snapshots: downloading https://oss.sonatype.org/content/repositories/snapshots/com/github/mpeltonen/sbt-idea_2.10_0.13/1.7.0-SNAPSHOT/sbt-idea-1.7.0-SNAPSHOT.pom[0m
 [0m[[0mdebug[0m] [0m	Sonatype snapshots: downloading https://oss.sonatype.org/content/repositories/snapshots/com/github/mpeltonen/sbt-idea_2.10_0.13/1.7.0-SNAPSHOT/sbt-idea-1.7.0-SNAPSHOT.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/repositories/snapshots/com/github/mpeltonen/sbt-idea_2.10_0.13/1.7.0-SNAPSHOT/sbt-idea-1.7.0-SNAPSHOT.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT!sbt-idea.pom(pom.original) (1039ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT!sbt-idea.pom(pom.original) (1848ms)[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/com.github.mpeltonen/sbt-idea/1.7.0-SNAPSHOT/jars/sbt-idea.jar[0m
 [0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/com.github.mpeltonen/sbt-idea/1.7.0-SNAPSHOT/jars/sbt-idea.jar[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.mpeltonen/sbt-idea/1.7.0-SNAPSHOT/jars/sbt-idea.jar[0m
 [0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.mpeltonen/sbt-idea/1.7.0-SNAPSHOT/jars/sbt-idea.jar[0m
-[0m[[0mdebug[0m] [0m		tried /Users/cray/.ivy2/local/com.github.mpeltonen/sbt-idea/1.7.0-SNAPSHOT/jars/sbt-idea.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/cray/.ivy2/local/com.github.mpeltonen/sbt-idea/1.7.0-SNAPSHOT/jars/sbt-idea.jar[0m
 [0m[[0mdebug[0m] [0m	maven-metadata not available: http://repo1.maven.org/maven2/com/github/mpeltonen/sbt-idea/1.7.0-SNAPSHOT/maven-metadata.xml[0m
 [0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/github/mpeltonen/sbt-idea/1.7.0-SNAPSHOT/sbt-idea-1.7.0-SNAPSHOT.jar[0m
 [0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/github/mpeltonen/sbt-idea/1.7.0-SNAPSHOT/sbt-idea-1.7.0-SNAPSHOT.jar[0m
@@ -101,17 +50,90 @@
 [0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/snapshots/com/github/mpeltonen/sbt-idea/1.7.0-SNAPSHOT/sbt-idea-1.7.0-SNAPSHOT.jar[0m
 [0m[[0mdebug[0m] [0mcom.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT is changing, but has not changed: will trust cached artifacts if any[0m
 [0m[[0mdebug[0m] [0mDeleting additional old artifacts from cache for changed module com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT:[0m
-[0m[[0mdebug[0m] [0m	/Users/cray/.ivy2/cache/scala_2.10/sbt_0.13/com.github.mpeltonen/sbt-idea/jars/sbt-idea-1.5.2.jar[0m
-[0m[[0mdebug[0m] [0m	/Users/cray/.ivy2/cache/scala_2.10/sbt_0.13/com.github.mpeltonen/sbt-idea/jars/sbt-idea-1.6.0.jar[0m
+[0m[[0mdebug[0m] [0m	[0m
 [0m[[0mdebug[0m] [0m	found com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT in Sonatype snapshots[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving commons-io#commons-io;2.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-io#commons-io;2.4[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: commons-io#commons-io;2.4[0m
-[0m[[0mdebug[0m] [0m	found commons-io#commons-io;2.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/commons-io/commons-io/2.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/commons-io/commons-io/2.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for commons-io#commons-io;2.4[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/commons-io/commons-io/2.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/commons-io/commons-io/2.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for commons-io#commons-io;2.4[0m
+[0m[[0mdebug[0m] [0m		tried /home/cray/.ivy2/local/commons-io/commons-io/2.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for commons-io#commons-io;2.4[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for commons-io#commons-io;2.4[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom (2.4)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] commons-io#commons-io;2.4!commons-io.pom(pom.original) (798ms)[0m
+[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-parent;25 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.commons#commons-parent;25 {}[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/25/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/25/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.apache.commons#commons-parent;25[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/25/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/25/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.apache.commons#commons-parent;25[0m
+[0m[[0mdebug[0m] [0m		tried /home/cray/.ivy2/local/org.apache.commons/commons-parent/25/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.commons#commons-parent;25[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/commons/commons-parent/25/commons-parent-25.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.apache.commons#commons-parent;25[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/apache/commons/commons-parent/25/commons-parent-25.pom (25)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/apache/commons/commons-parent/25/commons-parent-25.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/commons/commons-parent/25/commons-parent-25.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/commons/commons-parent/25/commons-parent-25.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/commons/commons-parent/25/commons-parent-25.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.commons#commons-parent;25!commons-parent.pom(pom.original) (1098ms)[0m
+[0m[[0minfo[0m] [0mResolving org.apache#apache;9 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache#apache;9 {}[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/9/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/9/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.apache#apache;9[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/9/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/9/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.apache#apache;9[0m
+[0m[[0mdebug[0m] [0m		tried /home/cray/.ivy2/local/org.apache/apache/9/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache#apache;9[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/apache/9/apache-9.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.apache#apache;9[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/apache/apache/9/apache-9.pom (9)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/apache/apache/9/apache-9.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/apache/9/apache-9.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/apache/9/apache-9.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/apache/9/apache-9.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache#apache;9!apache.pom(pom.original) (804ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/9/jars/apache.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/9/jars/apache.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/9/jars/apache.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/9/jars/apache.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/cray/.ivy2/local/org.apache/apache/9/jars/apache.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/apache/9/apache-9.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/apache/apache/9/apache-9.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/snapshots/org/apache/apache/9/apache-9.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/snapshots/org/apache/apache/9/apache-9.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/25/jars/commons-parent.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/25/jars/commons-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/25/jars/commons-parent.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/25/jars/commons-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/cray/.ivy2/local/org.apache.commons/commons-parent/25/jars/commons-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/commons/commons-parent/25/commons-parent-25.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/apache/commons/commons-parent/25/commons-parent-25.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/snapshots/org/apache/commons/commons-parent/25/commons-parent-25.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/snapshots/org/apache/commons/commons-parent/25/commons-parent-25.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/commons-io/commons-io/2.4/jars/commons-io.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/commons-io/commons-io/2.4/jars/commons-io.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/commons-io/commons-io/2.4/jars/commons-io.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/commons-io/commons-io/2.4/jars/commons-io.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/cray/.ivy2/local/commons-io/commons-io/2.4/jars/commons-io.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar[0m
+[0m[[0mdebug[0m] [0m	found commons-io#commons-io;2.4 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT->commons-io#commons-io;2.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT->commons-io#commons-io;2.4 [runtime->compile][0m
@@ -122,30 +144,115 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.10.2 [compile->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving com.eed3si9n#sbt-assembly;0.10.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.eed3si9n#sbt-assembly;0.10.2 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.eed3si9n#sbt-assembly;0.10.2[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: com.eed3si9n#sbt-assembly;0.10.2[0m
-[0m[[0mdebug[0m] [0m	found com.eed3si9n#sbt-assembly;0.10.2 in sbt-chain[0m
-[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalaparsedate-build;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalaparsedate-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#global-plugins;0.0->com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0->com.typesafe.sbteclipse#sbteclipse-core;2.5.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->compile][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/2.4.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: found md file for com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0[0m
+[0m[[0mdebug[0m] [0m		=> http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/2.4.0/ivys/ivy.xml (2.4.0)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/2.4.0/ivys/ivy.xml ...[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: downloading http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/2.4.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: downloading http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/2.4.0/ivys/ivy.xml.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/2.4.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0!ivy.xml(ivy.original) (895ms)[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 in typesafe-ivy-releases[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0->com.typesafe.sbteclipse#sbteclipse-core;2.4.0 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.sbteclipse#sbteclipse-core;2.4.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.sbteclipse#sbteclipse-core;2.4.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.10/sbt_0.13/2.4.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: found md file for com.typesafe.sbteclipse#sbteclipse-core;2.4.0[0m
+[0m[[0mdebug[0m] [0m		=> http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.10/sbt_0.13/2.4.0/ivys/ivy.xml (2.4.0)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.10/sbt_0.13/2.4.0/ivys/ivy.xml ...[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: downloading http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.10/sbt_0.13/2.4.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: downloading http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.10/sbt_0.13/2.4.0/ivys/ivy.xml.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.10/sbt_0.13/2.4.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.sbteclipse#sbteclipse-core;2.4.0!ivy.xml(ivy.original) (917ms)[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.sbteclipse#sbteclipse-core;2.4.0 in typesafe-ivy-releases[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalaz#scalaz-core_2.10;7.0.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalaz#scalaz-core_2.10;7.0.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.scalaz/scalaz-core_2.10/7.0.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.scalaz/scalaz-core_2.10/7.0.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.scalaz#scalaz-core_2.10;7.0.2[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalaz/scalaz-core_2.10/7.0.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalaz/scalaz-core_2.10/7.0.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.scalaz#scalaz-core_2.10;7.0.2[0m
+[0m[[0mdebug[0m] [0m		tried /home/cray/.ivy2/local/org.scalaz/scalaz-core_2.10/7.0.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scalaz#scalaz-core_2.10;7.0.2[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.10/7.0.2/scalaz-core_2.10-7.0.2.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.scalaz#scalaz-core_2.10;7.0.2[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.10/7.0.2/scalaz-core_2.10-7.0.2.pom (7.0.2)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.10/7.0.2/scalaz-core_2.10-7.0.2.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.10/7.0.2/scalaz-core_2.10-7.0.2.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.10/7.0.2/scalaz-core_2.10-7.0.2.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.10/7.0.2/scalaz-core_2.10-7.0.2.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scalaz#scalaz-core_2.10;7.0.2!scalaz-core_2.10.pom(pom.original) (801ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.scalaz/scalaz-core_2.10/7.0.2/bundles/scalaz-core_2.10.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.scalaz/scalaz-core_2.10/7.0.2/bundles/scalaz-core_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalaz/scalaz-core_2.10/7.0.2/bundles/scalaz-core_2.10.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalaz/scalaz-core_2.10/7.0.2/bundles/scalaz-core_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/cray/.ivy2/local/org.scalaz/scalaz-core_2.10/7.0.2/bundles/scalaz-core_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.10/7.0.2/scalaz-core_2.10-7.0.2.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scalaz#scalaz-core_2.10;7.0.2 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.scala-lang/scala-library/2.10.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.scala-lang/scala-library/2.10.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.scala-lang#scala-library;2.10.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-lang/scala-library/2.10.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-lang/scala-library/2.10.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.scala-lang#scala-library;2.10.1[0m
+[0m[[0mdebug[0m] [0m		tried /home/cray/.ivy2/local/org.scala-lang/scala-library/2.10.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang#scala-library;2.10.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.1/scala-library-2.10.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.scala-lang#scala-library;2.10.1[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.1/scala-library-2.10.1.pom (2.10.1)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.1/scala-library-2.10.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.1/scala-library-2.10.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.1/scala-library-2.10.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.1/scala-library-2.10.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.10.1!scala-library.pom(pom.original) (828ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.scala-lang/scala-library/2.10.1/jars/scala-library.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.scala-lang/scala-library/2.10.1/jars/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-lang/scala-library/2.10.1/jars/scala-library.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-lang/scala-library/2.10.1/jars/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/cray/.ivy2/local/org.scala-lang/scala-library/2.10.1/jars/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.1/scala-library-2.10.1.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.1 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalaz#scalaz-effect_2.10;7.0.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalaz#scalaz-effect_2.10;7.0.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.scalaz/scalaz-effect_2.10/7.0.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.scalaz/scalaz-effect_2.10/7.0.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.scalaz#scalaz-effect_2.10;7.0.2[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalaz/scalaz-effect_2.10/7.0.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalaz/scalaz-effect_2.10/7.0.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.scalaz#scalaz-effect_2.10;7.0.2[0m
+[0m[[0mdebug[0m] [0m		tried /home/cray/.ivy2/local/org.scalaz/scalaz-effect_2.10/7.0.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scalaz#scalaz-effect_2.10;7.0.2[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.10/7.0.2/scalaz-effect_2.10-7.0.2.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.scalaz#scalaz-effect_2.10;7.0.2[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.10/7.0.2/scalaz-effect_2.10-7.0.2.pom (7.0.2)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.10/7.0.2/scalaz-effect_2.10-7.0.2.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.10/7.0.2/scalaz-effect_2.10-7.0.2.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.10/7.0.2/scalaz-effect_2.10-7.0.2.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.10/7.0.2/scalaz-effect_2.10-7.0.2.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scalaz#scalaz-effect_2.10;7.0.2!scalaz-effect_2.10.pom(pom.original) (795ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.scalaz/scalaz-effect_2.10/7.0.2/bundles/scalaz-effect_2.10.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.scalaz/scalaz-effect_2.10/7.0.2/bundles/scalaz-effect_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalaz/scalaz-effect_2.10/7.0.2/bundles/scalaz-effect_2.10.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalaz/scalaz-effect_2.10/7.0.2/bundles/scalaz-effect_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/cray/.ivy2/local/org.scalaz/scalaz-effect_2.10/7.0.2/bundles/scalaz-effect_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.10/7.0.2/scalaz-effect_2.10-7.0.2.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scalaz#scalaz-effect_2.10;7.0.2 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
@@ -154,7 +261,25 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.10.2 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.eed3si9n#sbt-assembly;0.10.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.eed3si9n#sbt-assembly;0.10.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.10.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.10.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for com.eed3si9n#sbt-assembly;0.10.2[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.10.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: found md file for com.eed3si9n#sbt-assembly;0.10.2[0m
+[0m[[0mdebug[0m] [0m		=> http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.10.2/ivys/ivy.xml (0.10.2)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.10.2/ivys/ivy.xml ...[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.10.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.10.2/ivys/ivy.xml.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.10.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.eed3si9n#sbt-assembly;0.10.2!ivy.xml(ivy.original) (2592ms)[0m
+[0m[[0mdebug[0m] [0m	found com.eed3si9n#sbt-assembly;0.10.2 in sbt-plugin-releases[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalaparsedate-build;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalaparsedate-build;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT [compile->compile][0m
@@ -169,35 +294,32 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0->com.typesafe.sbteclipse#sbteclipse-core;2.4.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.10.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#scalaparsedate-build;0.1-SNAPSHOT [test][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#scalaparsedate-build;0.1-SNAPSHOT [runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#scalaparsedate-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#global-plugins;0.0->com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0->com.typesafe.sbteclipse#sbteclipse-core;2.5.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT [compile->compile][0m
@@ -212,13 +334,33 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0->com.typesafe.sbteclipse#sbteclipse-core;2.4.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.10.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#scalaparsedate-build;0.1-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3dd8da5d[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1bfc3437[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.3[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scala-lang#scala-library;2.10.3[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.3 in sbt-chain[0m
@@ -760,35 +902,6 @@
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#scalaparsedate-build;0.1-SNAPSHOT [compile-internal][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#scalaparsedate-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#global-plugins;0.0->com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0->com.typesafe.sbteclipse#sbteclipse-core;2.5.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT [compile->compile][0m
@@ -803,7 +916,33 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0->com.typesafe.sbteclipse#sbteclipse-core;2.4.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.10.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#scalaparsedate-build;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#scalaparsedate-build;0.1-SNAPSHOT [provided][0m
@@ -1128,29 +1267,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#scalaparsedate-build;0.1-SNAPSHOT [runtime-internal][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#scalaparsedate-build;0.1-SNAPSHOT [runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#scalaparsedate-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#global-plugins;0.0->com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0->com.typesafe.sbteclipse#sbteclipse-core;2.5.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT [compile->compile][0m
@@ -1165,7 +1281,27 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0->com.typesafe.sbteclipse#sbteclipse-core;2.4.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.10.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#scalaparsedate-build;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
@@ -1173,12 +1309,24 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#scalaparsedate-build;0.1-SNAPSHOT [test][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#scalaparsedate-build;0.1-SNAPSHOT [runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#scalaparsedate-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#global-plugins;0.0->com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0->com.typesafe.sbteclipse#sbteclipse-core;2.5.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT->commons-io#commons-io;2.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT->commons-io#commons-io;2.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0->com.typesafe.sbteclipse#sbteclipse-core;2.4.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
@@ -1186,10 +1334,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
@@ -1201,22 +1349,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT->commons-io#commons-io;2.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT->commons-io#commons-io;2.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.10.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#scalaparsedate-build;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#scalaparsedate-build;0.1-SNAPSHOT [provided][0m
@@ -1588,16 +1721,57 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalaparsedate-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->optional(default)][0m
-[0m[[0mdebug[0m] [0m	resolved ivy file produced in /Users/cray/Documents/workspace-scala/ScalaParseDate/project/target/resolution-cache/default/scalaparsedate-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in /home/cray/ScalaParseDate/project/target/resolution-cache/default/scalaparsedate-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT!sbt-idea.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.eed3si9n#sbt-assembly;0.10.2!sbt-assembly.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0!sbteclipse-plugin.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.sbteclipse#sbteclipse-core;2.5.0!sbteclipse-core.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-core_2.10;7.0.2!scalaz-core_2.10.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-effect_2.10;7.0.2!scalaz-effect_2.10.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.1!scala-library.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-io#commons-io;2.4!commons-io.jar[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: https://oss.sonatype.org/content/repositories/snapshots/com/github/mpeltonen/sbt-idea/1.7.0-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/snapshots/com/github/mpeltonen/sbt-idea_2.10_0.13/1.7.0-SNAPSHOT/sbt-idea-1.7.0-SNAPSHOT.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://oss.sonatype.org/content/repositories/snapshots/com/github/mpeltonen/sbt-idea_2.10_0.13/1.7.0-SNAPSHOT/sbt-idea-1.7.0-SNAPSHOT.jar ...[0m
+[0m[[0mdebug[0m] [0m	Sonatype snapshots: downloading https://oss.sonatype.org/content/repositories/snapshots/com/github/mpeltonen/sbt-idea_2.10_0.13/1.7.0-SNAPSHOT/sbt-idea-1.7.0-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	Sonatype snapshots: downloading https://oss.sonatype.org/content/repositories/snapshots/com/github/mpeltonen/sbt-idea_2.10_0.13/1.7.0-SNAPSHOT/sbt-idea-1.7.0-SNAPSHOT.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/repositories/snapshots/com/github/mpeltonen/sbt-idea_2.10_0.13/1.7.0-SNAPSHOT/sbt-idea-1.7.0-SNAPSHOT.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.github.mpeltonen#sbt-idea;1.7.0-SNAPSHOT!sbt-idea.jar (4182ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/2.4.0/jars/sbteclipse-plugin.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/2.4.0/jars/sbteclipse-plugin.jar ...[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: downloading http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/2.4.0/jars/sbteclipse-plugin.jar[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: downloading http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/2.4.0/jars/sbteclipse-plugin.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/2.4.0/jars/sbteclipse-plugin.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0!sbteclipse-plugin.jar (1342ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.10.2/jars/sbt-assembly.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.10.2/jars/sbt-assembly.jar ...[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.10.2/jars/sbt-assembly.jar[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.10.2/jars/sbt-assembly.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.10.2/jars/sbt-assembly.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.eed3si9n#sbt-assembly;0.10.2!sbt-assembly.jar (4076ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] commons-io#commons-io;2.4!commons-io.jar (1559ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.10/sbt_0.13/2.4.0/jars/sbteclipse-core.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.10/sbt_0.13/2.4.0/jars/sbteclipse-core.jar ...[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: downloading http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.10/sbt_0.13/2.4.0/jars/sbteclipse-core.jar[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: downloading http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.10/sbt_0.13/2.4.0/jars/sbteclipse-core.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.10/sbt_0.13/2.4.0/jars/sbteclipse-core.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.sbteclipse#sbteclipse-core;2.4.0!sbteclipse-core.jar (2434ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.10/7.0.2/scalaz-core_2.10-7.0.2.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.10/7.0.2/scalaz-core_2.10-7.0.2.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.10/7.0.2/scalaz-core_2.10-7.0.2.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.10/7.0.2/scalaz-core_2.10-7.0.2.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.10/7.0.2/scalaz-core_2.10-7.0.2.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scalaz#scalaz-core_2.10;7.0.2!scalaz-core_2.10.jar(bundle) (3877ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.10/7.0.2/scalaz-effect_2.10-7.0.2.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.10/7.0.2/scalaz-effect_2.10-7.0.2.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.10/7.0.2/scalaz-effect_2.10-7.0.2.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.10/7.0.2/scalaz-effect_2.10-7.0.2.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.10/7.0.2/scalaz-effect_2.10-7.0.2.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scalaz#scalaz-effect_2.10;7.0.2!scalaz-effect_2.10.jar(bundle) (2084ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.1/scala-library-2.10.1.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.1/scala-library-2.10.1.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.1/scala-library-2.10.1.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.1/scala-library-2.10.1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.1/scala-library-2.10.1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.10.1!scala-library.jar (3585ms)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.3!scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#sbt;0.13.1!sbt.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#main;0.13.1!main.jar[0m
@@ -1645,19 +1819,19 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.1!apply-macro.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.3!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 11161ms :: artifacts dl 46ms[0m
-[0m[[0mdebug[0m] [0m	report for default#scalaparsedate-build;0.1-SNAPSHOT compile produced in /Users/cray/Documents/workspace-scala/ScalaParseDate/project/target/resolution-cache/reports/default-scalaparsedate-build-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#scalaparsedate-build;0.1-SNAPSHOT runtime produced in /Users/cray/Documents/workspace-scala/ScalaParseDate/project/target/resolution-cache/reports/default-scalaparsedate-build-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#scalaparsedate-build;0.1-SNAPSHOT test produced in /Users/cray/Documents/workspace-scala/ScalaParseDate/project/target/resolution-cache/reports/default-scalaparsedate-build-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#scalaparsedate-build;0.1-SNAPSHOT provided produced in /Users/cray/Documents/workspace-scala/ScalaParseDate/project/target/resolution-cache/reports/default-scalaparsedate-build-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#scalaparsedate-build;0.1-SNAPSHOT optional produced in /Users/cray/Documents/workspace-scala/ScalaParseDate/project/target/resolution-cache/reports/default-scalaparsedate-build-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#scalaparsedate-build;0.1-SNAPSHOT compile-internal produced in /Users/cray/Documents/workspace-scala/ScalaParseDate/project/target/resolution-cache/reports/default-scalaparsedate-build-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#scalaparsedate-build;0.1-SNAPSHOT runtime-internal produced in /Users/cray/Documents/workspace-scala/ScalaParseDate/project/target/resolution-cache/reports/default-scalaparsedate-build-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#scalaparsedate-build;0.1-SNAPSHOT test-internal produced in /Users/cray/Documents/workspace-scala/ScalaParseDate/project/target/resolution-cache/reports/default-scalaparsedate-build-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#scalaparsedate-build;0.1-SNAPSHOT plugin produced in /Users/cray/Documents/workspace-scala/ScalaParseDate/project/target/resolution-cache/reports/default-scalaparsedate-build-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#scalaparsedate-build;0.1-SNAPSHOT sources produced in /Users/cray/Documents/workspace-scala/ScalaParseDate/project/target/resolution-cache/reports/default-scalaparsedate-build-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#scalaparsedate-build;0.1-SNAPSHOT docs produced in /Users/cray/Documents/workspace-scala/ScalaParseDate/project/target/resolution-cache/reports/default-scalaparsedate-build-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#scalaparsedate-build;0.1-SNAPSHOT pom produced in /Users/cray/Documents/workspace-scala/ScalaParseDate/project/target/resolution-cache/reports/default-scalaparsedate-build-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#scalaparsedate-build;0.1-SNAPSHOT scala-tool produced in /Users/cray/Documents/workspace-scala/ScalaParseDate/project/target/resolution-cache/reports/default-scalaparsedate-build-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (11161ms resolve - 46ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 35800ms :: artifacts dl 23177ms[0m
+[0m[[0mdebug[0m] [0m	report for default#scalaparsedate-build;0.1-SNAPSHOT compile produced in /home/cray/ScalaParseDate/project/target/resolution-cache/reports/default-scalaparsedate-build-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalaparsedate-build;0.1-SNAPSHOT runtime produced in /home/cray/ScalaParseDate/project/target/resolution-cache/reports/default-scalaparsedate-build-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalaparsedate-build;0.1-SNAPSHOT test produced in /home/cray/ScalaParseDate/project/target/resolution-cache/reports/default-scalaparsedate-build-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalaparsedate-build;0.1-SNAPSHOT provided produced in /home/cray/ScalaParseDate/project/target/resolution-cache/reports/default-scalaparsedate-build-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalaparsedate-build;0.1-SNAPSHOT optional produced in /home/cray/ScalaParseDate/project/target/resolution-cache/reports/default-scalaparsedate-build-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalaparsedate-build;0.1-SNAPSHOT compile-internal produced in /home/cray/ScalaParseDate/project/target/resolution-cache/reports/default-scalaparsedate-build-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalaparsedate-build;0.1-SNAPSHOT runtime-internal produced in /home/cray/ScalaParseDate/project/target/resolution-cache/reports/default-scalaparsedate-build-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalaparsedate-build;0.1-SNAPSHOT test-internal produced in /home/cray/ScalaParseDate/project/target/resolution-cache/reports/default-scalaparsedate-build-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalaparsedate-build;0.1-SNAPSHOT plugin produced in /home/cray/ScalaParseDate/project/target/resolution-cache/reports/default-scalaparsedate-build-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalaparsedate-build;0.1-SNAPSHOT sources produced in /home/cray/ScalaParseDate/project/target/resolution-cache/reports/default-scalaparsedate-build-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalaparsedate-build;0.1-SNAPSHOT docs produced in /home/cray/ScalaParseDate/project/target/resolution-cache/reports/default-scalaparsedate-build-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalaparsedate-build;0.1-SNAPSHOT pom produced in /home/cray/ScalaParseDate/project/target/resolution-cache/reports/default-scalaparsedate-build-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalaparsedate-build;0.1-SNAPSHOT scala-tool produced in /home/cray/ScalaParseDate/project/target/resolution-cache/reports/default-scalaparsedate-build-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (35800ms resolve - 23177ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

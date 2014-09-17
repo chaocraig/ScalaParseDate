@@ -4,7 +4,7 @@
 		module="scalaparsedate_2.10"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20140916175917"
+		publication="20140917163407"
 	>
 		<description>
 		ScalaParseDate

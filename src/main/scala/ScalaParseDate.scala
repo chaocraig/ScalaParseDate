@@ -22,8 +22,10 @@ object ScalaParseDate {
   private val DEBUG_LEVEL = 3
   private val DATE_ERR    = "2000-00-00"
 
-  private val SRC_FILEPATH="hdfs://hadoop-001:9000/user/cray/app_dect/imei_all.txt"
-  private val DST_FILEPATH="hdfs://hadoop-001:9000/user/cray/app_dect/imei_all_dir"
+  private val SRC_FILEPATH="hdfs://hadoop-001:9000/user/cray/app/imei_all.txt"
+  private val DST_FILEPATH="hdfs://hadoop-001:9000/user/cray/app/imei_all_dir"
+
+  private val RUN_JAR="/home/cray/ScalaParseDate/target/scala-2.10/scalaparsedate_2.10-0.1-SNAPSHOT.jar"
 
   // val SRC_FILEPATH="/Users/cray/Downloads/scala/imei_all_sample.txt"
   // val DST_FILEPATH="/Users/cray/Downloads/scala/imei_all_sample-cvt.txt"
@@ -160,7 +162,8 @@ object ScalaParseDate {
        // find a random port for driver application web-ui
        //.set("spark.ui.port", findAvailablePort.toString)
        //.setJars(findJars)
-       .setJars(Seq("/Users/cray/Documents/workspace-scala/ScalaParseDate/target/scala-2.10/scalaparsedate_2.10-1.0.jar"))
+       //.setJars(Seq("/Users/cray/Documents/workspace-scala/ScalaParseDate/target/scala-2.10/scalaparsedate_2.10-1.0.jar"))
+       .setJars(Seq(RUN_JAR))
        
        // The coarse-grained mode will instead launch only one long-running Spark task on each Mesos machine, 
        // and dynamically schedule its own “mini-tasks” within it. The benefit is much lower startup overhead, 

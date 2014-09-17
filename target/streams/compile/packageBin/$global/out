@@ -1,15 +1,15 @@
-[0m[[0minfo[0m] [0mPackaging /Users/cray/Documents/workspace-scala/ScalaParseDate/target/scala-2.10/scalaparsedate_2.10-0.1-SNAPSHOT.jar ...[0m
+[0m[[0minfo[0m] [0mPackaging /home/cray/ScalaParseDate/target/scala-2.10/scalaparsedate_2.10-0.1-SNAPSHOT.jar ...[0m
 [0m[[0mdebug[0m] [0mInput file mappings:[0m
-[0m[[0mdebug[0m] [0m	ScalaParseDate$.class[0m
-[0m[[0mdebug[0m] [0m	  /Users/cray/Documents/workspace-scala/ScalaParseDate/target/scala-2.10/classes/ScalaParseDate$.class[0m
 [0m[[0mdebug[0m] [0m	ScalaParseDate$$anonfun$DoConversions$1.class[0m
-[0m[[0mdebug[0m] [0m	  /Users/cray/Documents/workspace-scala/ScalaParseDate/target/scala-2.10/classes/ScalaParseDate$$anonfun$DoConversions$1.class[0m
-[0m[[0mdebug[0m] [0m	ScalaParseDate$$anonfun$findAvailablePort$1.class[0m
-[0m[[0mdebug[0m] [0m	  /Users/cray/Documents/workspace-scala/ScalaParseDate/target/scala-2.10/classes/ScalaParseDate$$anonfun$findAvailablePort$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/cray/ScalaParseDate/target/scala-2.10/classes/ScalaParseDate$$anonfun$DoConversions$1.class[0m
 [0m[[0mdebug[0m] [0m	ScalaParseDate$$anonfun$1.class[0m
-[0m[[0mdebug[0m] [0m	  /Users/cray/Documents/workspace-scala/ScalaParseDate/target/scala-2.10/classes/ScalaParseDate$$anonfun$1.class[0m
-[0m[[0mdebug[0m] [0m	ScalaParseDate$$anonfun$WriteAlltoFile$1.class[0m
-[0m[[0mdebug[0m] [0m	  /Users/cray/Documents/workspace-scala/ScalaParseDate/target/scala-2.10/classes/ScalaParseDate$$anonfun$WriteAlltoFile$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/cray/ScalaParseDate/target/scala-2.10/classes/ScalaParseDate$$anonfun$1.class[0m
 [0m[[0mdebug[0m] [0m	ScalaParseDate.class[0m
-[0m[[0mdebug[0m] [0m	  /Users/cray/Documents/workspace-scala/ScalaParseDate/target/scala-2.10/classes/ScalaParseDate.class[0m
+[0m[[0mdebug[0m] [0m	  /home/cray/ScalaParseDate/target/scala-2.10/classes/ScalaParseDate.class[0m
+[0m[[0mdebug[0m] [0m	ScalaParseDate$$anonfun$findAvailablePort$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/cray/ScalaParseDate/target/scala-2.10/classes/ScalaParseDate$$anonfun$findAvailablePort$1.class[0m
+[0m[[0mdebug[0m] [0m	ScalaParseDate$$anonfun$WriteAlltoFile$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/cray/ScalaParseDate/target/scala-2.10/classes/ScalaParseDate$$anonfun$WriteAlltoFile$1.class[0m
+[0m[[0mdebug[0m] [0m	ScalaParseDate$.class[0m
+[0m[[0mdebug[0m] [0m	  /home/cray/ScalaParseDate/target/scala-2.10/classes/ScalaParseDate$.class[0m
 [0m[[0minfo[0m] [0mDone packaging.[0m
