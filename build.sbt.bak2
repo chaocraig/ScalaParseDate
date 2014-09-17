@@ -1,0 +1,42 @@
+
+name := "ScalaParseDate"
+
+version := "1.0"
+
+organization := "My organization"
+
+scalaVersion := "2.10.4"
+
+
+mainClass in (Compile,run) := Some("ScalaParseDate")
+
+
+libraryDependencies += "org.apache.spark" %% "spark-core" % "1.0.2"
+
+resolvers += "Akka Repository" at "http://repo.akka.io/releases/"
+
+crossScalaVersions := Seq("2.10.3", "2.11.0-M8")
+
+
+libraryDependencies ++= Seq(
+  "org.rogach" %% "scallop" % "0.9.5",
+  "org.scalatest" %% "scalatest" % "1.9.1" % "test"
+)
+
+libraryDependencies += "org.apache.spark" %% "spark-core" % "0.9.0-incubating"
+
+resolvers  ++= Seq(
+  "Apache repo" at "https://repository.apache.org/content/repositories/releases",
+  "Local Repo" at Path.userHome.asFile.toURI.toURL + "/.m2/repository",
+  Resolver.mavenLocal
+)
+
+resolvers ++= Seq(
+  "Cloudera" at "https://repository.cloudera.com/artifactory/cloudera-repos",
+  "Typesafe" at "http://repo.typesafe.com/typesafe/releases",
+  "Scala Tools Snapshots" at "http://scala-tools.org/repo-snapshots/",
+  "ScalaNLP Maven2" at "http://repo.scalanlp.org/repo",
+  "Spray" at "http://repo.spray.cc"
+)
+
+

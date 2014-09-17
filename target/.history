@@ -1,0 +1,9 @@
+run
+compile
+package
+help
+settings
+clean
+compile
+run
+run local

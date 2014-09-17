@@ -1,0 +1,31 @@
+import AssemblyKeys._
+
+assemblySettings
+
+name := "MyProgramName"
+
+version := "1.0"
+
+organization := "My organization"
+
+scalaVersion := "2.10.3"
+
+libraryDependencies ++= Seq(
+  "org.apache.spark" %% "spark-core" % "1.0.0-incubating-SNAPSHOT" % "provided",
+  "org.apache.spark" %% "spark-mllib" % "1.0.0-incubating-SNAPSHOT" % "provided",
+  "org.rogach" %% "scallop" % "0.9.5",
+  "org.scalatest" %% "scalatest" % "1.9.1" % "test"
+)
+
+resolvers ++= Seq(
+  "Cloudera" at "https://repository.cloudera.com/artifactory/cloudera-repos",
+  "Typesafe" at "http://repo.typesafe.com/typesafe/releases",
+  "Scala Tools Snapshots" at "http://scala-tools.org/repo-snapshots/",
+  "ScalaNLP Maven2" at "http://repo.scalanlp.org/repo",
+  "Spray" at "http://repo.spray.cc"
+)
+
+runMain in Compile <<= Defaults.runMainTask(fullClasspath in Compile, runner in (Compile, run))
+
+run in Compile <<= Defaults.runTask(fullClasspath in Compile, mainClass in (Compile, run), runner in (Compile, run)) 
+
