@@ -150,14 +150,16 @@ object ScalaParseDate {
   def setSparkEnv(master:String) : SparkContext = {
 
     val conf = new SparkConf()
-       .setMaster("local[4]")
+       //.setMaster(master)
        .setAppName("ScalaParseDate")
        // runtime Spark Home, set by env SPARK_HOME or explicitly as below
        //.setSparkHome("/opt/spark")
 
        // be nice or nasty to others (per node)
-       .set("spark.executor.memory", "4g")
-       .set("spark.core.max", "8")
+       //.set("spark.executor.memory", "6g")
+       //.set("spark.core.max", "8")
+
+       .set("spark.metrics.conf", "org.apache.spark.metrics.sink.ConsoleSink")
 
        // find a random port for driver application web-ui
        //.set("spark.ui.port", findAvailablePort.toString)
@@ -180,9 +182,12 @@ object ScalaParseDate {
 
   def main(args: Array[String]) {
     
-    val sc = setSparkEnv( "local[4]" )
+    val sc = setSparkEnv("")
     
     WriteAlltoFile(DoConversions(ReadAllFromFile(sc, SRC_FILEPATH)), DST_FILEPATH)
+
+    sc.stop() 
+
   }
   
 }

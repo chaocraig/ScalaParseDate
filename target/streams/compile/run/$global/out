@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mRunning ScalaParseDate -m -a cf hdfs://hadoop-001:9000/user/cray/als/test.data hdfs://hadoop-001:9000/user/cray/als/output[0m
+[0m[[0minfo[0m] [0mRunning ScalaParseDate -m zk://hadoop-002:2181,hadoop-003:2181,hadoop-004:2181/mesos -a cf hdfs://hadoop-001:9000/user/cray/als/test.data hdfs://hadoop-001:9000/user/cray/als/output[0m
 [0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
 [0m[[0mdebug[0m] [0m  Classpath:[0m
 [0m[[0mdebug[0m] [0m	/home/cray/ScalaParseDate/target/scala-2.10/classes[0m
@@ -127,139 +127,54 @@
 [0m[[0mdebug[0m] [0m	/home/cray/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-shuffle/jars/hadoop-mapreduce-client-shuffle-2.0.0-cdh4.2.0.jar[0m
 [0m[[0mdebug[0m] [0m	/home/cray/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-jobclient/jars/hadoop-mapreduce-client-jobclient-2.0.0-cdh4.2.0.jar[0m
 [0m[[0mdebug[0m] [0mWaiting for thread run-main-0 to terminate.[0m
+[0m[[31merror[0m] [0m(run-main-0) org.apache.spark.SparkException: A master URL must be set in your configuration[0m
+org.apache.spark.SparkException: A master URL must be set in your configuration
+	at org.apache.spark.SparkContext.<init>(SparkContext.scala:166)
+	at ScalaParseDate$.setSparkEnv(ScalaParseDate.scala:176)
+	at ScalaParseDate$.main(ScalaParseDate.scala:183)
+	at ScalaParseDate.main(ScalaParseDate.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at sbt.Run.invokeMain(Run.scala:72)
+	at sbt.Run.run0(Run.scala:65)
+	at sbt.Run.sbt$Run$$execute$1(Run.scala:54)
+	at sbt.Run$$anonfun$run$1.apply$mcV$sp(Run.scala:58)
+	at sbt.Run$$anonfun$run$1.apply(Run.scala:58)
+	at sbt.Run$$anonfun$run$1.apply(Run.scala:58)
+	at sbt.Logger$$anon$4.apply(Logger.scala:90)
+	at sbt.TrapExit$App.run(TrapExit.scala:244)
+	at java.lang.Thread.run(Thread.java:745)
 [0m[[0mdebug[0m] [0m	Thread run-main-0 exited.[0m
 [0m[[0mdebug[0m] [0mInterrupting remaining threads (should be all daemons).[0m
-[0m[[0mdebug[0m] [0mInterrupting thread qtp1601504048-77[0m
-[0m[[0mdebug[0m] [0m	Interrupted qtp1601504048-77[0m
-[0m[[0mdebug[0m] [0mInterrupting thread Thread-37[0m
-[0m[[0mdebug[0m] [0m	Interrupted Thread-37[0m
-[0m[[0mdebug[0m] [0mInterrupting thread Result resolver thread-2[0m
-[0m[[0mdebug[0m] [0m	Interrupted Result resolver thread-2[0m
-[0m[[0mdebug[0m] [0mInterrupting thread qtp1601504048-82[0m
-[0m[[0mdebug[0m] [0m	Interrupted qtp1601504048-82[0m
-[0m[[0mdebug[0m] [0mInterrupting thread SHUFFLE_BLOCK_MANAGER cleanup timer[0m
-[0m[[0mdebug[0m] [0m	Interrupted SHUFFLE_BLOCK_MANAGER cleanup timer[0m
-[0m[[0mdebug[0m] [0mInterrupting thread delete Spark temp dir /tmp/spark-1b0b8b60-97aa-451f-a7f2-3958894bee58[0m
-[0m[[0mdebug[0m] [0m	Interrupted delete Spark temp dir /tmp/spark-1b0b8b60-97aa-451f-a7f2-3958894bee58[0m
-[0m[[0mdebug[0m] [0mInterrupting thread Executor task launch worker-1[0m
-[0m[[0mdebug[0m] [0m	Interrupted Executor task launch worker-1[0m
-[0m[[0mdebug[0m] [0mInterrupting thread qtp1601504048-76 Acceptor0 SocketConnector@0.0.0.0:35999[0m
-[0m[[0mdebug[0m] [0m	Interrupted qtp1601504048-76 Acceptor0 SocketConnector@0.0.0.0:35999[0m
-[0m[[0mdebug[0m] [0mInterrupting thread qtp519297341-88 Selector1[0m
-[0m[[0mdebug[0m] [0m	Interrupted qtp519297341-88 Selector1[0m
-[0m[[0mdebug[0m] [0mInterrupting thread qtp1601504048-78[0m
-[0m[[0mdebug[0m] [0m	Interrupted qtp1601504048-78[0m
-[0m[[0mdebug[0m] [0mInterrupting thread spark-akka.actor.default-dispatcher-3[0m
-[0m[[0mdebug[0m] [0m	Interrupted spark-akka.actor.default-dispatcher-3[0m
-[0m[[0mdebug[0m] [0mInterrupting thread Spark Context Cleaner[0m
-[0m[[0mdebug[0m] [0m	Interrupted Spark Context Cleaner[0m
-[0m[[0mdebug[0m] [0mInterrupting thread SparkListenerBus[0m
-[0m[[0mdebug[0m] [0m	Interrupted SparkListenerBus[0m
-[0m[[0mdebug[0m] [0mInterrupting thread New I/O worker #4[0m
-[0m[[0mdebug[0m] [0m	Interrupted New I/O worker #4[0m
-[0m[[0mdebug[0m] [0mInterrupting thread org.apache.hadoop.hdfs.PeerCache@36c9363[0m
-[0m[[0mdebug[0m] [0m	Interrupted org.apache.hadoop.hdfs.PeerCache@36c9363[0m
-[0m[[0mdebug[0m] [0mInterrupting thread qtp519297341-92[0m
-[0m[[0mdebug[0m] [0m	Interrupted qtp519297341-92[0m
-[0m[[0mdebug[0m] [0mInterrupting thread ShutdownMonitor[0m
-[0m[[0mdebug[0m] [0m	Interrupted ShutdownMonitor[0m
-[0m[[0mdebug[0m] [0mInterrupting thread Result resolver thread-3[0m
-[0m[[0mdebug[0m] [0m	Interrupted Result resolver thread-3[0m
-[0m[[0mdebug[0m] [0mInterrupting thread qtp519297341-94[0m
-[0m[[0mdebug[0m] [0m	Interrupted qtp519297341-94[0m
-[0m[[0mdebug[0m] [0mInterrupting thread qtp519297341-91[0m
-[0m[[0mdebug[0m] [0m	Interrupted qtp519297341-91[0m
-[0m[[0mdebug[0m] [0mInterrupting thread spark-akka.actor.default-dispatcher-2[0m
-[0m[[0mdebug[0m] [0m	Interrupted spark-akka.actor.default-dispatcher-2[0m
-[0m[[0mdebug[0m] [0mInterrupting thread qtp1620659348-71[0m
-[0m[[0mdebug[0m] [0m	Interrupted qtp1620659348-71[0m
-[0m[[0mdebug[0m] [0mInterrupting thread qtp1620659348-68[0m
-[0m[[0mdebug[0m] [0m	Interrupted qtp1620659348-68[0m
-[0m[[0mdebug[0m] [0mInterrupting thread qtp1601504048-81[0m
-[0m[[0mdebug[0m] [0m	Interrupted qtp1601504048-81[0m
-[0m[[0mdebug[0m] [0mInterrupting thread IPC Parameter Sending Thread #0[0m
-[0m[[0mdebug[0m] [0m	Interrupted IPC Parameter Sending Thread #0[0m
-[0m[[0mdebug[0m] [0mInterrupting thread BROADCAST_VARS cleanup timer[0m
-[0m[[0mdebug[0m] [0m	Interrupted BROADCAST_VARS cleanup timer[0m
-[0m[[0mdebug[0m] [0mInterrupting thread qtp1620659348-70[0m
-[0m[[0mdebug[0m] [0m	Interrupted qtp1620659348-70[0m
-[0m[[0mdebug[0m] [0mInterrupting thread qtp1620659348-65 Acceptor0 SocketConnector@0.0.0.0:36074[0m
-[0m[[0mdebug[0m] [0m	Interrupted qtp1620659348-65 Acceptor0 SocketConnector@0.0.0.0:36074[0m
-[0m[[0mdebug[0m] [0mInterrupting thread qtp1601504048-80[0m
-[0m[[0mdebug[0m] [0m	Interrupted qtp1601504048-80[0m
-[0m[[0mdebug[0m] [0mInterrupting thread MAP_OUTPUT_TRACKER cleanup timer[0m
-[0m[[0mdebug[0m] [0m	Interrupted MAP_OUTPUT_TRACKER cleanup timer[0m
-[0m[[0mdebug[0m] [0mInterrupting thread IPC Client (1524030514) connection to hadoop-001/192.168.101.11:9000 from cray[0m
-[0m[[0mdebug[0m] [0m	Interrupted IPC Client (1524030514) connection to hadoop-001/192.168.101.11:9000 from cray[0m
-[0m[[0mdebug[0m] [0mInterrupting thread New I/O server boss #6[0m
-[0m[[0mdebug[0m] [0m	Interrupted New I/O server boss #6[0m
-[0m[[0mdebug[0m] [0mInterrupting thread HTTP_BROADCAST cleanup timer[0m
-[0m[[0mdebug[0m] [0m	Interrupted HTTP_BROADCAST cleanup timer[0m
-[0m[[0mdebug[0m] [0mInterrupting thread Executor task launch worker-5[0m
-[0m[[0mdebug[0m] [0m	Interrupted Executor task launch worker-5[0m
-[0m[[0mdebug[0m] [0mInterrupting thread spark-akka.actor.default-dispatcher-5[0m
-[0m[[0mdebug[0m] [0m	Interrupted spark-akka.actor.default-dispatcher-5[0m
-[0m[[0mdebug[0m] [0mInterrupting thread New I/O worker #2[0m
-[0m[[0mdebug[0m] [0m	Interrupted New I/O worker #2[0m
-[0m[[0mdebug[0m] [0mInterrupting thread spark-8[0m
-[0m[[0mdebug[0m] [0m	Interrupted spark-8[0m
-[0m[[0mdebug[0m] [0mInterrupting thread spark-scheduler-1[0m
-[0m[[0mdebug[0m] [0m	Interrupted spark-scheduler-1[0m
-[0m[[0mdebug[0m] [0mInterrupting thread Connection manager future execution context-0[0m
-[0m[[0mdebug[0m] [0m	Interrupted Connection manager future execution context-0[0m
-[0m[[0mdebug[0m] [0mInterrupting thread qtp1620659348-72[0m
-[0m[[0mdebug[0m] [0m	Interrupted qtp1620659348-72[0m
-[0m[[0mdebug[0m] [0mInterrupting thread New I/O worker #1[0m
-[0m[[0mdebug[0m] [0m	Interrupted New I/O worker #1[0m
-[0m[[0mdebug[0m] [0mInterrupting thread qtp1620659348-67[0m
-[0m[[0mdebug[0m] [0m	Interrupted qtp1620659348-67[0m
-[0m[[0mdebug[0m] [0mInterrupting thread qtp1601504048-83[0m
-[0m[[0mdebug[0m] [0m	Interrupted qtp1601504048-83[0m
-[0m[[0mdebug[0m] [0mInterrupting thread Result resolver thread-0[0m
-[0m[[0mdebug[0m] [0m	Interrupted Result resolver thread-0[0m
-[0m[[0mdebug[0m] [0mInterrupting thread qtp519297341-93[0m
-[0m[[0mdebug[0m] [0m	Interrupted qtp519297341-93[0m
-[0m[[0mdebug[0m] [0mInterrupting thread qtp519297341-90 Acceptor1 SelectChannelConnector@0.0.0.0:4040[0m
-[0m[[0mdebug[0m] [0m	Interrupted qtp519297341-90 Acceptor1 SelectChannelConnector@0.0.0.0:4040[0m
-[0m[[0mdebug[0m] [0mInterrupting thread Result resolver thread-1[0m
-[0m[[0mdebug[0m] [0m	Interrupted Result resolver thread-1[0m
-[0m[[0mdebug[0m] [0mInterrupting thread spark-akka.actor.default-dispatcher-4[0m
-[0m[[0mdebug[0m] [0m	Interrupted spark-akka.actor.default-dispatcher-4[0m
-[0m[[0mdebug[0m] [0mInterrupting thread Executor task launch worker-3[0m
-[0m[[0mdebug[0m] [0m	Interrupted Executor task launch worker-3[0m
-[0m[[0mdebug[0m] [0mInterrupting thread qtp1620659348-66[0m
-[0m[[0mdebug[0m] [0m	Interrupted qtp1620659348-66[0m
-[0m[[0mdebug[0m] [0mInterrupting thread delete Spark temp dir /tmp/spark-96f7da9f-7e46-4e96-b1cb-bca5b8b0308e[0m
-[0m[[0mdebug[0m] [0m	Interrupted delete Spark temp dir /tmp/spark-96f7da9f-7e46-4e96-b1cb-bca5b8b0308e[0m
-[0m[[0mdebug[0m] [0mInterrupting thread New I/O boss #3[0m
-[0m[[0mdebug[0m] [0m	Interrupted New I/O boss #3[0m
-[0m[[0mdebug[0m] [0mInterrupting thread qtp519297341-87 Selector0[0m
-[0m[[0mdebug[0m] [0m	Interrupted qtp519297341-87 Selector0[0m
-[0m[[0mdebug[0m] [0mInterrupting thread qtp1601504048-79[0m
-[0m[[0mdebug[0m] [0m	Interrupted qtp1601504048-79[0m
-[0m[[0mdebug[0m] [0mInterrupting thread qtp1620659348-69[0m
-[0m[[0mdebug[0m] [0m	Interrupted qtp1620659348-69[0m
-[0m[[0mdebug[0m] [0mInterrupting thread spark-akka.actor.default-dispatcher-13[0m
-[0m[[0mdebug[0m] [0m	Interrupted spark-akka.actor.default-dispatcher-13[0m
-[0m[[0mdebug[0m] [0mInterrupting thread delete Spark local dirs[0m
-[0m[[0mdebug[0m] [0m	Interrupted delete Spark local dirs[0m
-[0m[[0mdebug[0m] [0mInterrupting thread Timer-0[0m
-[0m[[0mdebug[0m] [0m	Interrupted Timer-0[0m
-[0m[[0mdebug[0m] [0mInterrupting thread New I/O worker #5[0m
-[0m[[0mdebug[0m] [0m	Interrupted New I/O worker #5[0m
-[0m[[0mdebug[0m] [0mInterrupting thread Executor task launch worker-0[0m
-[0m[[0mdebug[0m] [0m	Interrupted Executor task launch worker-0[0m
 [0m[[0mdebug[0m] [0mInterrupting thread Thread-1[0m
 [0m[[0mdebug[0m] [0m	Interrupted Thread-1[0m
-[0m[[0mdebug[0m] [0mInterrupting thread connection-manager-thread[0m
-[0m[[0mdebug[0m] [0m	Interrupted connection-manager-thread[0m
-[0m[[0mdebug[0m] [0mInterrupting thread SPARK_CONTEXT cleanup timer[0m
-[0m[[0mdebug[0m] [0m	Interrupted SPARK_CONTEXT cleanup timer[0m
-[0m[[0mdebug[0m] [0mInterrupting thread delete Spark temp dir /tmp/spark-b74b6f60-daf7-44a0-9dfe-62f6b9178e21[0m
-[0m[[0mdebug[0m] [0m	Interrupted delete Spark temp dir /tmp/spark-b74b6f60-daf7-44a0-9dfe-62f6b9178e21[0m
-[0m[[0mdebug[0m] [0mInterrupting thread BLOCK_MANAGER cleanup timer[0m
-[0m[[0mdebug[0m] [0m	Interrupted BLOCK_MANAGER cleanup timer[0m
-[0m[[0mdebug[0m] [0mInterrupting thread qtp519297341-89 Acceptor0 SelectChannelConnector@0.0.0.0:4040[0m
-[0m[[0mdebug[0m] [0m	Interrupted qtp519297341-89 Acceptor0 SelectChannelConnector@0.0.0.0:4040[0m
 [0m[[0mdebug[0m] [0mSandboxed run complete..[0m
-[0m[[0mdebug[0m] [0mExited with code 0[0m
+java.lang.RuntimeException: Nonzero exit code: 1
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1653)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1653)
+	at scala.Option.foreach(Option.scala:236)
+	at sbt.BuildCommon$class.toError(Defaults.scala:1653)
+	at sbt.Defaults$.toError(Defaults.scala:35)
+	at sbt.Defaults$$anonfun$runTask$1$$anonfun$apply$36$$anonfun$apply$37.apply(Defaults.scala:656)
+	at sbt.Defaults$$anonfun$runTask$1$$anonfun$apply$36$$anonfun$apply$37.apply(Defaults.scala:654)
+	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47)
+	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:42)
+	at sbt.std.Transform$$anon$4.work(System.scala:64)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:237)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:237)
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18)
+	at sbt.Execute.work(Execute.scala:244)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:237)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:237)
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:160)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:30)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[0m[[31merror[0m] [0m(compile:[31mrun[0m) Nonzero exit code: 1[0m
